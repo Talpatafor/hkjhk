@@ -1,0 +1,20 @@
+html{
+  font-size: 62.5%;
+}
+.nav{
+  background-color: darkgrey;}
+.nav ul{
+  list-style: none; display: flex; justify-content: center; 
+}
+.nav ul li a{
+  text-decoration: none; margin: 5rem; color: white;
+}
+.nav ul li a:hover{
+  background-color: red; border: 1px solid black; border-radius: 2px;
+}
+h1{
+  font-size: 3rem; background-color: red; text-align: center;
+}
+p{
+  line-height: 2rem; text-transform: uppercase;
+}

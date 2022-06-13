@@ -1,0 +1,61 @@
+html{
+  font-size: 62.5%;
+}
+
+.nav{
+  background-color: darkgrey;
+}
+.nav ul{
+  list-style: none; display: flex; justify-content: center; 
+}
+.nav ul li a{
+  text-decoration: none; margin: 5rem; color: white;
+}
+.nav ul li a:hover{
+  background-color: red; border: 1px solid black; border-radius: 2px;
+}
+.heading{
+  background-color: darkgrey; text-align: center; font-size: 3rem; color: green;
+}
+.mainp{
+  font-family: Tahoma; font-size: 1.5rem; line-height: 3rem;
+}
+.h2{
+  text-align: center; font-size: 3rem; color: red; border: 1px dotted black;
+}
+.p1{
+  color: green; font-size: 1.5rem; line-height: 3rem;
+}
+.heading1{
+   background-color: darkgrey; text-align: center; font-size: 3rem; color: red;
+}
+.para{
+   font-family: Tahoma; font-size: 1.5rem; line-height: 3rem;
+}
+.container{
+  display: flex;
+}
+.item{
+  border: 2px solid black; height: 10rem; width: 30rem; margin: 3px; overflow: hidden;
+}
+.item:hover img{
+  transform: scale(1.2);
+}
+.item img{
+  transition: 1s;
+}
+.sociallinks{
+  background-color: darkgrey;
+}
+.sociallinks ul{
+  list-style: none; display: flex; 
+}
+.sociallinks ul li a{
+  color: white; margin: 7rem; font-size: 1.5rem;
+}
+.sociallinks ul li a:hover{
+  color: red; border-radius: 5px;
+}
+footer{
+  text-align: center;
+}
